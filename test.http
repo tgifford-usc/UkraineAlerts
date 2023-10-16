@@ -1,0 +1,7 @@
+@token = puttokenherewithoutquotationmarks
+
+# Get current alerts
+GET https://api.ukrainealarm.com/api/v3/alerts
+accept: application/json
+Authorization: {{token}}
+
